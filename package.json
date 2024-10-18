@@ -12,8 +12,8 @@
     "srv"
   ],
   "peerDependencies": {
-    "@sap/cds": ">=7.3",
-    "@sap/cds-dk": ">=7.3"
+    "@sap/cds": ">=8",
+    "@sap/cds-dk": ">=8"
   },
   "dependencies": {
     "@sap-cloud-sdk/connectivity": "^3.13.0",
@@ -23,8 +23,8 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "chai": "^4.3.10",
-    "@sap/cds": ">=7.3",
-    "@sap/cds-dk": ">=7.3"
+    "@sap/cds": ">=8",
+    "@sap/cds-dk": ">=8"
   },
   "scripts": {
     "lint": "npx eslint .",
@@ -37,6 +37,10 @@
       "notifications": {
         "[development]": {
           "kind": "notify-to-console"
+        },
+        "[hybrid]": {
+          "destination": "SAP_Notifications",
+          "kind": "notify-to-rest"
         },
         "[production]": {
           "destination": "SAP_Notifications",
