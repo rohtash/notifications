@@ -1,6 +1,6 @@
 {
   "name": "@cap-rp/notifications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CDS plugin providing integration to the SAP BTP Alert Notification Service.",
   "repository": "rohtash/notifications",
   "author": "SAP SE (https://www.sap.com)",
