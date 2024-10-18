@@ -1,8 +1,8 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/cap-js/notifications)](https://api.reuse.software/info/github.com/cap-js/notifications)
+[![REUSE status](https://api.reuse.software/badge/github.com/cap-rp/notifications)](https://api.reuse.software/info/github.com/cap-rp/notifications)
 
 # Notifications Plugin
 
-The `@cap-js/notifications` package is a [CDS plugin](https://cap.cloud.sap/docs/node.js/cds-plugins#cds-plugin-packages) that provides support for publishing business notifications in SAP Build WorkZone.
+The `@cap-rp/notifications` package is a [CDS plugin](https://cap.cloud.sap/docs/node.js/cds-plugins#cds-plugin-packages) that provides support for publishing business notifications in SAP Build WorkZone.
 
 ### Table of Contents
 
@@ -22,10 +22,10 @@ The `@cap-js/notifications` package is a [CDS plugin](https://cap.cloud.sap/docs
 To enable notifications, simply add this self-configuring plugin package to your project:
 
 ```sh
- npm add @cap-js/notifications
+ npm add @cap-rp/notifications
 ```
 
-In this guide, we use the [Incidents Management reference sample app](https://github.com/cap-js/incidents-app) as the base, to publish notifications.
+In this guide, we use the [Incidents Management reference sample app](https://github.com/cap-rp/incidents-app) as the base, to publish notifications.
 
 ## Send Notifications
 
@@ -190,7 +190,7 @@ alert.notify({
 
 ## Contributing
 
-This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/cap-js/change-tracking/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/cap-rp/change-tracking/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## Code of Conduct
 
@@ -198,4 +198,4 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 ## Licensing
 
-Copyright 2023 SAP SE or an SAP affiliate company and contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/cap-js/change-tracking).
+Copyright 2023 SAP SE or an SAP affiliate company and contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/cap-rp/change-tracking).

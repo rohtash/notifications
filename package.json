@@ -1,8 +1,8 @@
 {
-  "name": "@cap-js/notifications",
+  "name": "@cap-rp/notifications",
   "version": "0.2.2",
   "description": "CDS plugin providing integration to the SAP BTP Alert Notification Service.",
-  "repository": "cap-js/notifications",
+  "repository": "rohtash/notifications",
   "author": "SAP SE (https://www.sap.com)",
   "homepage": "https://cap.cloud.sap/",
   "license": "SEE LICENSE IN LICENSE",
@@ -52,10 +52,10 @@
       },
       "kinds": {
         "notify-to-console": {
-          "impl": "@cap-js/notifications/srv/notifyToConsole"
+          "impl": "@cap-rp/notifications/srv/notifyToConsole"
         },
         "notify-to-rest": {
-          "impl": "@cap-js/notifications/srv/notifyToRest"
+          "impl": "@cap-rp/notifications/srv/notifyToRest"
         }
       }
     }
